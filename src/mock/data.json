@@ -1,0 +1,18 @@
+{
+    "info" : {"name": "jinlovo"},
+    "books": [{
+        "date": "",
+        "id|+1": 1,
+        "name": "8",
+        "address": "io",
+        "book|10": [{
+            "address":"@region",
+            "author": "@name",
+            "email": "@email",
+            "age|16-70": 18,
+            "color": "@color",
+            "dataImage":"@image"
+        }]
+    }],
+    "ratings":[]
+}
