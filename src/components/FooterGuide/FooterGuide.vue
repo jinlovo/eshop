@@ -10,15 +10,15 @@
 </template>
 <script>
 export default {
-    data () {
-        return {
-        }
-    },
-    methods: {
-         toLog(path)  {
-            this.$router.replace(path)
-        }
+  data () {
+    return {
     }
+  },
+  methods: {
+    toLog (path) {
+      this.$router.replace(path)
+    }
+  }
 }
 </script>
 <style lang="stylus">

@@ -15,9 +15,9 @@
 </template>
 <script>
 export default {
-  data() {
+  data () {
     return {
-      bookDetail:this.$store.state.books[0].book
+      bookDetail: this.$store.state.books[0].book
     }
   },
   mounted () {
@@ -30,7 +30,7 @@ export default {
 #eOrder
   padding-bottom 3.125rem
 
-img 
+img
   width 6.25rem
   height 3.125rem
 </style>

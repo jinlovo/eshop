@@ -8,27 +8,27 @@ import Profile from '../pages/Profile/Profile.vue'
 // 声明使用插件
 Vue.use(VueRouter)
 export default new VueRouter({
-    // 所有路由
-    routes: [
-        {
-            path: '/msite',
-            component: MSite
-        },
-        {
-            path: '/search',
-            component: Search
-        },
-        {
-            path: '/order',
-            component: Order
-        },
-        {
-            path: '/profile',
-            component: Profile
-        },
-        {
-            path: '/',
-            redirect: 'msite'
-        }
-    ]
+  // 所有路由
+  routes: [
+    {
+      path: '/msite',
+      component: MSite
+    },
+    {
+      path: '/search',
+      component: Search
+    },
+    {
+      path: '/order',
+      component: Order
+    },
+    {
+      path: '/profile',
+      component: Profile
+    },
+    {
+      path: '/',
+      redirect: 'msite'
+    }
+  ]
 })
